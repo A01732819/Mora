@@ -229,6 +229,6 @@ Y creo que no hay palabra, frase, libro, idioma, acción o plan que me permitan 
 Creo que el color rojo, es uno que fácilmente te podría representar
 """)
 
-st.image("otraPrueba/images/20250523_180607.png", caption="Amo amarte, Evelyn Mora Ortega, dame tu apellidoOoo", width=350)
+st.image("Mora/images/20250523_180607.png", caption="Amo amarte, Evelyn Mora Ortega, dame tu apellidoOoo", width=350)
 st.divider()
-st.image("otraPrueba/images/20250620_154045.png", caption="Con cariño, Popel")
+st.image("Mora/images/20250620_154045.png", caption="Con cariño, Popel")
