@@ -1,0 +1,92 @@
+header[data-testid="stHeader"], footer[data-testid="stFooter"] {
+    display: none;
+}
+
+.stApp {
+    background: linear-gradient(145deg,rgba(26, 28, 36, 1) 40%, rgba(170, 51, 106, 1) 100%);
+    background: color: #C3B1E1;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+/* ==========================================================================
+   --- TIPOGRAFÍA ---
+   ========================================================================== */
+
+
+/* Para st.title() */
+h1 {
+    color: #FFFFFFF !important ; /* Cambiado a blanco */
+    font-weight: 20;
+}
+
+/* Para st.header() */
+h2 {
+    color: #61639D !important;
+    font-weight: 20;
+}
+
+/* Para st.subheader() */
+h3 {
+    color: #AA336A !important;
+    font-weight: 20;
+}
+
+p {
+    color: #FFFFFF; /* CHECAR CON EL TEXTO */
+}
+h1 > span, h2 > span, h3 > span {
+    margin-right: 12px;
+}
+
+
+/* ==========================================================================
+   --- BOTONES UNIFICADOS --- #181a4b
+   ========================================================================== */
+
+div.stButton > button,
+div[data-testid="stDownloadButton"] > button,
+button[kind="formSubmit"] {
+    background-color: #61639D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 500;
+}
+
+div.stButton > button:hover,
+div[data-testid="stDownloadButton"] > button:hover,
+button[kind="formSubmit"]:hover {
+    background-color: #2f2c79;
+    transform: scale(1.05);
+}
+
+div.stButton > button:active,
+div[data-testid="stDownloadButton"] > button:active,
+button[kind="formSubmit"]:active {
+    background-color: #E45D5D;
+    transform: scale(0.98);
+}
+
+/* ==========================================================================
+   --- RESPONSIVE DESIGN ---
+   ========================================================================== */
+@media (max-width: 768px) {
+    .stApp {
+        padding: 2rem;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+

@@ -1,0 +1,52 @@
+header[data-testid="stHeader"], footer[data-testid="stFooter"] {
+    display: none;
+}
+
+.stApp {
+    background: radial-gradient(circle,rgba(228, 93, 93, 1) 0%, rgba(201, 226, 255, 1) 94%);
+    color: #ffffff;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+/* ==========================================================================
+   --- TIPOGRAFÍA ---
+   ========================================================================== */
+
+
+/* Para st.title() */
+h1 {
+    color: #000000 !important ;
+    font-weight: 20;
+}
+
+/* Para st.header() */
+h2 {
+    color: #722F37 !important;
+    font-weight: 20;
+}
+
+/* Para st.subheader() */
+h3 {
+    color: #AA336A !important;
+    font-weight: 20;
+}
+
+p {
+    color: #000000; /* CHECAR CON EL TEXTO */
+}
+h1 > span, h2 > span, h3 > span {
+    margin-right: 12px;
+}
+
+/* ==========================================================================
+   --- RESPONSIVE DESIGN ---
+   ========================================================================== */
+@media (max-width: 768px) {
+    .stApp {
+        padding: 2rem;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
