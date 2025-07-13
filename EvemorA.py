@@ -43,7 +43,7 @@ st.markdown("que he estado preparando :D")
 
 st.divider()
 
-st.image("Mora/images/20241101_210832.png", caption="Esta carta también es un viaje por el tiempo.", width=350)
+st.image("images/20241101_210832.png", caption="Esta carta también es un viaje por el tiempo.", width=350)
 
 st.markdown("Esta foto es de la primera vez que salimos, el fokin suburbano iba lento y tuve que tomar un uber al Tec. "
             "Fue la primera vez que me subí a un uber tan moderno, y es un recuerdo que vive en mi choya.")
@@ -64,7 +64,7 @@ Pero antes de que vayas a pasar a otras páginas, quiero recordarte que te amo.
 
 st.divider()
 
-st.image("Mora/images/20241113_214825.png", caption="Una de las tantas lunas que han visto nuestro amor.",width=350)
+st.image("images/20241113_214825.png", caption="Una de las tantas lunas que han visto nuestro amor.",width=350)
 st.markdown("Esa fue la segunda vez que salimos. Fuimos a ver la película de Flow. "
             "Recuerdo que estaba nervioso porque algo en mí quería acercarse a ti, pero no quería verme raro. "
             "Supe que tu sonrisa se convertitía en algo especial para mí.")
@@ -81,10 +81,10 @@ Como sabes, la huella digital es el rastro que dejas en internet, y yo quiero de
 
 col1, col2 = st.columns(2)
 with col1:
-    st.image("Mora/images/20241206_162743.png", caption="Este día fue muy lindo.")
+    st.image("images/20241206_162743.png", caption="Este día fue muy lindo.")
 
 with col2:
-    st.image("Mora/images/20241206_130235.png", caption="Fue la primera vez que pude sentir tu calidez.")
+    st.image("images/20241206_130235.png", caption="Fue la primera vez que pude sentir tu calidez.")
 
 st.divider()
 
@@ -94,7 +94,7 @@ Para terminar con esta sección, quiero hacer énfasis en que esta página estar
 Al igual que yo, siempre disponible para ti: para tus gustos y antojos. 
 """)
 
-st.image("Mora/images/20241209_141614.png", caption="Foto de nuestro primer beso<33", width=350)
+st.image("images/20241209_141614.png", caption="Foto de nuestro primer beso<33", width=350)
 
 st.divider()
 
@@ -114,7 +114,7 @@ Yo estoy dispuesto a hacer todo lo posible para ayudarte en todo lo que me pidas
 y yo quiero que estemos bien, para amarnos bien.
 """)
 
-st.image("Mora/images/20241226_135757.jpg", caption="No supe cómo voltear la imagen (xd), ¿Ya te dije que te amo?", width=350)
+st.image("images/20241226_135757.jpg", caption="No supe cómo voltear la imagen (xd), ¿Ya te dije que te amo?", width=350)
 
 st.markdown("""
 Quiero hacer un pequeño disclaimer: Cuando tenga más conocimientos, esta página será otra!!

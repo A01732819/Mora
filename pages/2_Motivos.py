@@ -52,7 +52,7 @@ with col1:
     st.latex(r"\lim_{n \to \infty} \frac{F_{n+1}}{F_n} = \varphi = \frac{1+\sqrt{5}}{2} \approx 1.618")
 
     st.markdown("**Origen:** Creada por Fibonacci en el siglo XIII.")
-    st.image("Mora/images/20250110_170306.png", caption="La vida siendo tan hermosa como matemática.", width=350)
+    st.image("images/20250110_170306.png", caption="La vida siendo tan hermosa como matemática.", width=350)
 
 with col2:
     st.subheader("¿Cómo se relaciona contigo?")
@@ -63,7 +63,7 @@ with col2:
     Y el número de oro es simplemente increíble y hermoso, e igual que tú, lo encuentro en muchos lados. Un ejemplo es en plantas, como esta pero incluso aparece en las rosas.
     Solo digo que tú eres preciosa, y todo lo bonito que veo en ti, lo veo también en muchos lados gracias a ti.   
     """)
-    st.image("Mora/images/20250502_185248.png", caption="El número de oro también está en la geometría.")
+    st.image("images/20250502_185248.png", caption="El número de oro también está en la geometría.")
 
 
 
@@ -81,7 +81,7 @@ with col1:
     st.latex(r"X_k = \sum_{n=0}^{N-1} x_n \cdot e^{-2\pi ikn/N}")
 
     st.markdown("**Origen:** Desarrollada por Joseph Fourier en el siglo XIX para resolver ecuaciones de calor.")
-    st.image("Mora/images/20250214_133714.png", caption="Hasta lo que parece pequeño, tiene infinito detalle.", width=350)
+    st.image("images/20250214_133714.png", caption="Hasta lo que parece pequeño, tiene infinito detalle.", width=350)
 
 with col2:
     st.subheader("¿Cómo se relaciona contigo?")
@@ -90,7 +90,7 @@ with col2:
     
     Personalmente creo que si te aplico una Transformada de Fourier nunca terminaría de encontrarte algo nuevo: Eres tantísimo que cada pequeño de ti es inmenso, siempre hay algo nuevo qué descubrir, "tienes tantas ondas" que su respectivo análisis duraría una eternidad. Pero yo quiero, anhelo, adoraría encontrar hasta el último detalle de lo que eres y lo que te hace ser tú, para así pasar una eternidad junto a ti.
     """)
-    st.image("Mora/images/20250609_180938.jpg", caption="Agradezco todos los días de poder conocerte más y más.", width=350)
+    st.image("images/20250609_180938.jpg", caption="Agradezco todos los días de poder conocerte más y más.", width=350)
 
 st.divider()
 
@@ -108,7 +108,7 @@ with col1:
     st.markdown("**Ejemplo:** El número 13 se representa como:")
     st.latex(r"13_{(decimal)} = 1101_{(binario)} = D_{(hexadecimal)}")
 
-    st.image("Mora/images/20250214_143813.png", caption="Siempre hay otras maneras de ver la vida.", width=350)
+    st.image("images/20250214_143813.png", caption="Siempre hay otras maneras de ver la vida.", width=350)
 
 with col2:
     st.subheader("¿Cómo se relaciona contigo?")
@@ -116,7 +116,7 @@ with col2:
     Evelyn, tú tienes algo (tdah) que hace que siempre un dinamismo en ti tan grande. Me refiero a que hay "facetas" en toda tu personalidad que simplemente es muy lindo de ver.
     Si me preguntas, tú al igual que los números, tiene varias representaciones. Al final del día eres Evelyn, pero con todas las cosas que eres, haces, puedo verte de distintas maneras y no perderás tu esencia. 
     """)
-    st.image("Mora/images/20250515_160620.png", caption="Una carta de pokemon tiene muchas representaciones, todas son bonitas, pero al final del día, es una carta pokemon. Y tú eres mi favorita.", width=350)
+    st.image("images/20250515_160620.png", caption="Una carta de pokemon tiene muchas representaciones, todas son bonitas, pero al final del día, es una carta pokemon. Y tú eres mi favorita.", width=350)
 
 st.divider()
 st.header("Entropía")
@@ -129,7 +129,7 @@ with col1:
 
     st.markdown(
         "**Origen:** Introducida por Clausius en física (termodinámica) y por Claude Shannon en teoría de la información (1948).")
-    st.image("Mora/images/20250304_181511.png", caption="¿Te imaginaste alguna vez así conmigo?", width=350)
+    st.image("images/20250304_181511.png", caption="¿Te imaginaste alguna vez así conmigo?", width=350)
 with col2:
     st.subheader("¿Cómo se relaciona contigo?")
     st.markdown("""
@@ -143,5 +143,5 @@ with col2:
 
 st.divider()
 st.markdown("Eve, cuando te digo que te encuentro en todo lados, es que hasta en la sopa te veo. Te he aprendido tanto, y no podría estar más feliz por eso.")
-st.image("Mora/images/20250322_184225.png", caption="Todo es todo.", width=350)
+st.image("images/20250322_184225.png", caption="Todo es todo.", width=350)
 
