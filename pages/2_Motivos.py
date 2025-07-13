@@ -139,7 +139,7 @@ with col2:
     
     La primera pregunta dice que fue un producto del azar que tengamos el mismo líbido, mientras que la segunda pregunta indica que ya estaba planeado que íbamos a tener el mismo líbido. Es una pregunta interesante.
     """)
-    st.image("Mora/images/20250418_193733.jpg", caption="Neta que me la paso bien padre cuando te tengo cerca.")
+    st.image("images/20250418_193733.jpg", caption="Neta que me la paso bien padre cuando te tengo cerca.")
 
 st.divider()
 st.markdown("Eve, cuando te digo que te encuentro en todo lados, es que hasta en la sopa te veo. Te he aprendido tanto, y no podría estar más feliz por eso.")
